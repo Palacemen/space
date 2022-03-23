@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Проект</title>
+    <meta name="description" content="Озвучиваем аниме">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/styles/base.min.css?_v=20220323221227">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&_v=20220323221227" rel="stylesheet">
+    <link rel=”icon” href=”/favicon.ico” type=”image/x-icon”>
+</head>
+<body>
+    <main>
+        <div class="container-block">
+            <section class="question__section d-none">
+    <div class="price__wrap ">
+        <div class="row">
+            <div class="close__btn">
+                <i class="bi bi-x-square"></i>
+            </div> 
+            <div class="price__block-name col-xl-12 col-lg-12 col-md-12">
+                <p class="price-name">Выберите цену вопроса</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="price-block col-xl-12 col-lg-12 col-md-12 d-flex justify-content-between">
+                <!-- <div class="col-price col-xl-2 col-lg-2 col-md-2 d-flex align-items-center justify-content-center " data-price="100">
+                    <p>100</p>
+                </div> -->
+                <div class="col-price col-xl-2 col-lg-2 col-md-2 d-flex align-items-center justify-content-center " data-price="200">
+                    <p>200</p>
+                </div>
+                <div class="col-price col-xl-2 col-lg-2 col-md-2 d-flex align-items-center justify-content-center " data-price="300">
+                    <p>300</p>
+                </div>
+                <div class="col-price col-xl-2 col-lg-2 col-md-2 d-flex align-items-center justify-content-center " data-price="400">
+                    <p>400</p>
+                </div>
+                <div class="col-price col-xl-2 col-lg-2 col-md-2 d-flex align-items-center justify-content-center " data-price="500">
+                    <p>500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row question__row d-none">
+
+        <div class="col-xl-12 col-lg-12 col-md-12 question__wrap">
+            <p class="question">Кто является основоположником космонавтики?</p>
+            <div class="question__btn-wrap col-xl-6 col-lg-6 col-md-6">
+                <div class="question__btn col-xl-6 col-lg-6 col-md-6 m-lg-auto text-center">
+                    <p>Ответ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row answer__row d-none">
+        <div class="col-xl-12 col-lg-12 col-md-12 question__wrap">
+            <p class="answer">Кто является основоположником космонавтики?</p>
+            <div class="answer__btn-wrap question__btn-wrap col-xl-6 col-lg-6 col-md-6">
+                <div class="question__btn plus__btn col-xl-5 col-lg-5 col-md-5 m-lg-auto text-center" data-team="0">
+                    <p>Команда 1</p>
+                    <p class="plus__price">+300</p>
+                </div>
+                <div class="question__btn plus__btn col-xl-5 col-lg-5 col-md-5 m-lg-auto text-center" data-team="1">
+                    <p>Команда 2</p>
+                    <p class="plus__price">+300</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <section class="container-fluid first-view__section">
+    <div class="row">
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 first-view__info-block">
+                    <h2 class="col-6-h2">СВОЯ ИГРА <br>
+                        ВСЁ О КОСМОСЕ</h2>
+                    <div class="col-xl-1 col-lg-1 first-view__dark-line"></div>
+                    <p class="first-view__descrip d-xl-block d-lg-block d-md-block d-sm-block d-none">Я твердо уверен, что где-то в галактике дальней,
+                        На пыльных тропинках, вдали от космических трасс,
+                        Найдется планета, похожая с нашей детально,
+                        И люди на ней совершенно похожи на нас.</p>
+                    <!-- <button class="col-s6-btn first-view__button-more button">
+                        READ MORE
+                    </button> -->
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 services__col text-col">
+                        <h2>КОМАНДА 1</h2>
+                    <div class="col-xl-2 col-lg-2 first-view__dark-line"></div>
+                    <div class="first-view__counter-wrap">
+                        <p class="text-col__descrip services__col-descrip">Очки: </p>
+                        <p class="text-col__descrip services__col-descrip points"> 0</p>
+
+                    </div>
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 services__col text-col">
+                        <h2>КОМАНДА 2</h2>
+                    <div class="col-xl-2 col-lg-2 first-view__dark-line"></div>
+                    <div class="first-view__counter-wrap">
+                        <p class="text-col__descrip services__col-descrip">Очки: </p>
+                        <p class="text-col__descrip services__col-descrip points"> 0</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+    
+</section>
+            <section class="themes-section">
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center services__col text-col themes__col themes__col-01" data-theme="osvoi">
+            <p class="themes__col-name">
+                Освоение космоса
+            </p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center services__col text-col themes__col themes__col-02" data-theme="who">
+            <p class="themes__col-name">
+                Русские космонавты
+            </p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center services__col text-col themes__col themes__col-03" data-theme="zvezdi">
+            <p class="themes__col-name">
+                Солнце,Земля и Луна
+            </p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex align-items-center justify-content-center services__col text-col themes__col themes__col-04" data-theme="planets">
+            <p class="themes__col-name">
+                Планеты
+            </p>
+        </div>
+    </div>
+</section>
+
+
+        </div>
+    </main>
+
+</body>
+
+<script src="./assets/scripts/app.min.js?_v=20220323221227"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js?_v=20220323221227"></script>
+</html>
